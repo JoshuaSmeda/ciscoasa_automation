@@ -41,18 +41,18 @@ def Commands(command):
 		Send_Email(output, device.host, total_time)
 
 def Send_Email(output, device_IP, total_time):
-	subject = str('Truworths Cisco Automation Run: ' + device_IP)
+	subject = str('Cisco Automation Run: ' + device_IP)
 	total_time = str(total_time)
-	toaddr = 'firewallops@nclose.com'
-	fromaddr = 'nclose.ciscoautomation@gmail.com'
+	toaddr = '*'
+	fromaddr = '*'
 	body = str("Terminal output of change control: " + "\n" + "\n" + output + "\n" + "\n" + "Total Automation run time: " + total_time)
 	msg = """From: %s\nTo: %s\nSubject: %s\n\n%s """ % (fromaddr, toaddr, subject, body)
 	try:
 		mail = smtplib.SMTP('smtp.gmail.com', 587)
 		mail.ehlo()
 		mail.starttls()
-		mail.login('nclose.ciscoautomation@gmail.com', 'b3}Au8VL5`bdbkc7')
-		mail.sendmail('nclose.ciscoautomation@gmail.com', 'firewallops@nclose.com', msg)
+		mail.login('*', '*')
+		mail.sendmail('*', '*', msg)
 		mail.close()
 		print("Mail Sent successfully!")
 	except Exception, e:
