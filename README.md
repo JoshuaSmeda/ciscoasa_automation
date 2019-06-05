@@ -14,11 +14,9 @@
 
 3. Create a change control file and insert necessary change control commands - note that these commands must be run within en / conf term:<br>
 ```
-touch change_control.txt 
-# Include the cisco commands you wish to run - one command per line. (\n)
-Specify file when running the script (see option 2) 
-
+touch change_control.conf && vi change_control.conf
 ```
+Include the cisco commands you wish to run - one command per line. Specify file when running the script (see option 2) 
 
 If you wish to specify multiple Cisco devices by running the following (replace the IP's with your actual IP's): <br>
 `python cisco_automation.py -mc 192.168.1.1, 192.168.1.2, 192.168.1.3`
