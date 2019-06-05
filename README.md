@@ -1,3 +1,5 @@
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Nclose-ZA/ciscoasa_automation/issues)
+
 <h1>Guide on how to use Cisco_Automation script: </h1> <br>
 * Note: This script only supports Cisco ASA. <br>
 * Multiple Cisco devices is supported - you'll need to add the devices to the Add_Cisco_Device function which stores Cisco details within a list. <br>
