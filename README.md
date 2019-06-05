@@ -1,6 +1,6 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Nclose-ZA/ciscoasa_automation/issues)
 
-<h1>Guide on how to use Cisco_Automation script: </h1> <br>
+<h1> Guide on how to use Cisco_Automation script: </h1>
 * Note: This script only supports Cisco ASA. <br>
 * Multiple Cisco devices is supported - you'll need to add the devices to the Add_Cisco_Device function which stores Cisco details within a list. <br>
 * If there is a demand for a large number of change control configurations to be made to multiple devices - threading can be included into the main() class. <br>
