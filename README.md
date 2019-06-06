@@ -1,9 +1,9 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Nclose-ZA/ciscoasa_automation/issues)
 
 <h1> Guide on how to use Cisco_Automation script: </h1>
-* This script only supports Cisco ASA. <br>
-* Multiple Cisco devices is supported - you'll need to add the devices to the Add_Cisco_Device function which stores Cisco details within a list. <br>
-* If there is a demand for a large number of change control configurations to be made to multiple devices - threading can be included into the main() class. <br>
+* This script only supports Cisco ASA devices. <br>
+* Specifying multiple cisco devices is supported - you'll need to add the devices to the Add_Cisco_Device function which stores Cisco details within a list. See _-mc_ argument or _--help_ <br>
+* If there is a demand for a large number of change control configurations to be made to multiple devices quickly - threading can be included. <br>
 * You can test connectivity to Cisco devices by using cisco_test.py before creating a scheduler - crontab guru <br>
 
 1. Install prerequisties: <br>
