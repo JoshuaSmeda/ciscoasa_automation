@@ -12,9 +12,9 @@
 2. View available argument options by running the following: <br>
 `python cisco_automation.py --help`
 
-3. Create a change control file and insert necessary change control commands - note that these commands must be run within en / conf term:<br>
+3. Insert necessary change control commands - note that these commands must be run within en / conf term on the Cisco device:<br>
 ```
-touch change_control.conf && vi change_control.conf
+vi change_control.conf
 ```
 Include the cisco commands you wish to run - one command per line. Specify file when running the script (see option 2) 
 
